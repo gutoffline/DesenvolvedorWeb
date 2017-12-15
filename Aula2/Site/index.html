@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NutriMais</title>
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="corpo">
+        <header>
+            <img src="imagens/logo.png" alt="NutriMais">
+            <nav>
+                <ul>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Servicos">Serviços</a></li>
+                    <li><a href="#IMC">IMC</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+                <form>
+                <label>Pesquisar <input type="text"></label>
+                    <input type="submit" value="Pesquisar">
+                </form>
+            </nav>
+        </header>
+        <div id="banner">
+            <img src="imagens/banner1.jpg" alt="Alimentação" id="banner1">
+            <img src="imagens/banner2.jpg" alt="Treino" id="banner2">
+            <img src="imagens/banner3.jpg" alt="Acompanhamento" id="banner3">
+            <nav>
+                <ul>
+                    <li><a href="#banner1">1</a></li>
+                    <li><a href="#banner2">2</a></li>
+                    <li><a href="#banner3">3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="Sobre">
+            <h2>Sobre Nós</h2>
+            <p>TEXTO SOBRE NÓS</p>
+        </div>
+        <div id="Servicos">
+            
+            <h2>Serviços</h2>
+            <div class="coluna">
+                <img src="imagens/servicos1.jpg" alt="Alimentação">
+                <h3>Alimentação</h3>
+                <p>TEXTO SOBRE ALIMENTAÇÃO</p>
+            </div>
+            
+            <div class="coluna">
+                <img src="imagens/servicos2.jpg" alt="Treino">
+                <h3>Treino</h3>
+                <p>TEXTO SOBRE TREINO</p>
+            </div>
+            
+            <div class="coluna">
+                <img src="imagens/servicos3.jpg" alt="Acompanhamento">
+                <h3>Acompanhamento</h3>
+                <p>TEXTO SOBRE ACOMPANHAMENTO</p>
+            </div>
+            
+        </div>
+        
+        <div id="IMC">
+            <h2>IMC</h2>
+            <form>
+                <label>Nome: <input type="text" name="nome" id="nome"> </label>
+                <label>Telefone: <input type="text" name="telefone" id="telefone"> </label>
+                <label>Idade: <input type="text" name="idade" id="idade"> </label>
+                <label>Altura: <input type="text" name="altura" id="altura"> </label>
+                <label>Peso: <input type="text" name="peso" id="peso"> </label>
+                <button type="button">Salvar</button>
+            </form>
+            <table id="pacientes">
+                <thead>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Idade</th>
+                    <th>Altura</th>
+                    <th>Peso</th>
+                    <th>IMC</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>(19)99999-9999</td>
+                        <td>27 anos</td>
+                        <td>1.79 cm</td>
+                        <td>89 kg</td>
+                        <td>27,8 - Sobrepeso</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Contato">
+            <h2>Contato</h2>
+            <form>
+                <label>Nome: <input type="text"></label>
+                <label>E-mail: <input type="text"></label>
+                <label>Assunto: <input type="text"></label>
+                <label for="comentario">Comentário</label>
+                <textarea id="comentario" name="comentario"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <footer>
+            <div id="endereco">
+                R. Dr. Angelino Sanches, 800 <br>
+                Vila Sao Pedro, Americana - SP<br>
+                13466-490
+            </div>
+            <ul class="redes-sociais">
+                <li><a href="http://fb.com" target="_blank">Facebook</a></li>
+                <li><a href="http://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="http://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+            <h1>NutriMais</h1>
+        </footer>
+    </div>
+</body>
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
