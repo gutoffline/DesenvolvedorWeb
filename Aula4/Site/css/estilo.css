@@ -207,6 +207,7 @@ footer{
     width: 32px;
     height: 32px;
     text-indent: 9000px;
+    overflow: hidden;
 }
 
 .redes-sociais li a{
