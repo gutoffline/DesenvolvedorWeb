@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LIGHTFORCE</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+    <div class="corpo">
+        <header>
+            <img src="imagens/logo.png" alt="LIGHTFORCE">
+            <nav>
+                <ul>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Servicos">Serviços</a></li>
+                    <li><a href="#IMC">IMC</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+                <form>
+                    <input type="text" name="pesquisar" id="pesquisar" placeholder="Didigite sua busca">
+                    <button type="button"><img src="imagens/pesquisar.png" alt="pesquisar"></button>
+                </form>
+            </nav>
+        </header>
+        <div id="banner">
+            <img src="imagens/banner1.jpg" alt="Treino" id="banner1">
+            <img src="imagens/banner2.jpg" alt="Alimentação" id="banner2">
+            <img src="imagens/banner3.jpg" alt="Acompanhamento" id="banner3">
+            <nav>
+                <ul>
+                    <li><a href="#banner1">1</a></li>
+                    <li><a href="#banner2">2</a></li>
+                    <li><a href="#banner3">3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="Sobre">
+            <h2>Sobre Nós</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra, ligula cursus vehicula ullamcorper, est nisl consectetur eros, et feugiat ipsum felis ac nulla. Nullam efficitur massa ligula, eu lobortis metus tempus id. Donec fringilla erat a ipsum tincidunt, eget fringilla diam ultrices. Sed at augue vel leo rutrum fermentum vitae ac erat. Donec elementum sollicitudin arcu. Proin eleifend sem vel ipsum commodo sagittis. Sed accumsan sem in purus pretium, ac suscipit urna cursus. Vivamus aliquam dapibus leo ut pretium. Phasellus et nibh neque. Vestibulum condimentum turpis lorem, et porta sapien faucibus ac.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum efficitur justo et mauris facilisis, et dapibus nibh tristique. Pellentesque consectetur maximus odio, vel tempor nisi tincidunt vitae. Duis id iaculis leo, nec porttitor mi. Nullam euismod leo vel est iaculis eleifend. Duis ac mollis leo. Pellentesque finibus nisi rhoncus nulla aliquam aliquam. Praesent mollis enim et vulputate placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Quisque in consectetur turpis. Fusce pretium, nisl nec accumsan placerat, tellus turpis mollis tellus, in vehicula tellus diam at ex. Duis fermentum pulvinar accumsan. Suspendisse elementum sed lectus vel rutrum. Donec rhoncus facilisis massa at molestie. Ut mattis pretium urna, in congue lacus. Duis ac eleifend enim. Maecenas vel viverra orci, at pharetra lectus.</p>
+        </div>
+        <div id="Servicos">
+
+            <h2>Serviços</h2>
+            <div class="coluna">
+                <img src="imagens/servicos1.jpg" alt="Alimentação">
+                <h3>Alimentação</h3>
+                <p>Quisque in consectetur turpis. Fusce pretium, nisl nec accumsan placerat, tellus turpis mollis tellus, in vehicula tellus diam at ex. Duis fermentum pulvinar accumsan. Suspendisse elementum sed lectus vel rutrum. Donec rhoncus facilisis massa at molestie. Ut mattis pretium urna, in congue lacus. Duis ac eleifend enim. Maecenas vel viverra orci, at pharetra lectus.</p>
+            </div>
+
+            <div class="coluna">
+                <img src="imagens/servicos2.jpg" alt="Treino">
+                <h3>Treino</h3>
+                <p>Quisque in consectetur turpis. Fusce pretium, nisl nec accumsan placerat, tellus turpis mollis tellus, in vehicula tellus diam at ex. Duis fermentum pulvinar accumsan. Suspendisse elementum sed lectus vel rutrum. Donec rhoncus facilisis massa at molestie. Ut mattis pretium urna, in congue lacus. Duis ac eleifend enim. Maecenas vel viverra orci, at pharetra lectus.</p>
+            </div>
+
+            <div class="coluna">
+                <img src="imagens/servicos3.jpg" alt="Acompanhamento">
+                <h3>Acompanhamento</h3>
+                <p>Quisque in consectetur turpis. Fusce pretium, nisl nec accumsan placerat, tellus turpis mollis tellus, in vehicula tellus diam at ex. Duis fermentum pulvinar accumsan. Suspendisse elementum sed lectus vel rutrum. Donec rhoncus facilisis massa at molestie. Ut mattis pretium urna, in congue lacus. Duis ac eleifend enim. Maecenas vel viverra orci, at pharetra lectus.</p>
+            </div>
+
+        </div>
+
+        <div id="IMC">
+            <h2>IMC</h2>
+            <form>
+                <input type="text" name="nome" id="nome" placeholder="Nome:">
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone"> </label>
+                <input type="number" name="idade" id="idade" placeholder="Idade">
+                <input type="number" name="altura" id="altura" placeholder="Altura">
+                <input type="number" name="peso" id="peso" placeholder="Peso">
+                <button type="button" onclick="CadastraIMC();">Salvar</button>
+            </form>
+            <table id="pacientes">
+                <thead>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Idade</th>
+                    <th>Altura</th>
+                    <th>Peso</th>
+                    <th>IMC</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>(19)99999-9999</td>
+                        <td>27 anos</td>
+                        <td>1.79 cm</td>
+                        <td>89 kg</td>
+                        <td>27,8 - Sobrepeso</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="Contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" id="contato-nome" placeholder="Nome" >
+                <input type="email" id="email" placeholder="E-mail">
+                <input type="text" id="assunto" placeholder="Assunto">
+                <textarea id="comentario" name="comentario" placeholder="Comentário"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <footer>
+            <div id="endereco">
+                R. Dr. Angelino Sanches, 800 <br>
+                Vila Sao Pedro, Americana - SP<br>
+                13466-490
+            </div>
+            <ul class="redes-sociais">
+                <li class="facebook"><a href="http://fb.com" target="_blank">Facebook</a></li>
+                <li class="twitter"><a href="http://twitter.com" target="_blank">Twitter</a></li>
+                <li class="instagram"><a href="http://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+            <h1>LIGHTFORCE</h1>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/hello.js"></script>
+    <script type="text/javascript" src="js/biblioteca.js"></script>
+
+</body>
+
+</html>

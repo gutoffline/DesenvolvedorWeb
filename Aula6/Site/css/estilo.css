@@ -1,0 +1,238 @@
+.corpo{
+    margin: 0 auto;
+    width: 960px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #c5c5c5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Anton', sans-serif;
+    color: #a7c83c;
+    font-size: 24px;
+    text-shadow: 1px 1px #000;
+}
+
+header{
+    background-color: #1d1d1b;
+}
+
+header a{
+    color: #a7c83c;
+}
+
+header nav{
+    display: inline-block;
+    vertical-align: top;
+}
+
+header nav ul{
+    display: inline-block;
+    width: 400px;
+}
+
+header nav ul li{
+    height: 38px;
+    display: inline-block;
+    width: 96px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header nav ul li:hover{
+    background-color: #666;
+}
+
+header nav form{
+    display: inline-block
+}
+
+header nav form input{
+    height: 26px;
+}
+
+header nav form button{
+    border: 0px;
+    background-color: #1d1d1b;
+    margin-top: 4px;
+    top: 4px;
+}
+
+
+#banner nav ul{
+    display: inline-block;
+}
+
+#banner nav ul li{
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+#banner nav ul li:hover{
+    border: 1px solid #a7c83c;
+}
+
+#Sobre p{
+    column-count: 3;
+    column-gap: 40px;
+}
+
+h2{
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+}
+
+h3{
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.coluna{
+    display: inline-block;
+    width: 310px;
+    padding: 3px;
+}
+
+
+#IMC input{
+    border: 1px solid #ccc;
+    width: 47%;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#IMC input:hover {
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#IMC button{
+    width: 20%;
+    cursor: pointer;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#IMC button:hover {
+  background: #43A047;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#IMC button:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#IMC input:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+table {
+    padding:5px; 
+    width: 100%;
+}
+ 
+th {
+    color:#D5DDE5;
+    background:#1b1e24;
+    border-right: 1px solid #343a45;
+    font-size:16px;
+    padding:10px;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color:#666B85;
+    background:#EBEBEB;
+}
+
+td {
+    padding:10px;
+    font-size:12px;
+    border-right: 1px solid #C1C3D1;
+}
+
+#Contato input{
+    border: 1px solid #ccc;
+    width: 30%;
+    padding: 10px;
+}
+
+#Contato button{
+    width: 20%;
+    cursor: pointer;
+    border: none;
+    background: #0080ff;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#Contato textarea {
+    border: 1px solid #ccc;
+    height: 100px;
+    width: 97%;
+    resize: none;
+}
+
+footer{
+    background-color: #ececec;
+    padding: 20px;
+}
+
+#endereco, .redes-sociais, .redes-sociais li, footer h1{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.redes-sociais{
+    text-align: center;
+}
+
+.redes-sociais li{
+    width: 32px;
+    height: 32px;
+    text-indent: 9000px;
+    overflow: hidden;
+}
+
+.redes-sociais li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.facebook{
+    background-image: url("../imagens/facebook.png");
+}
+
+.twitter{
+    background-image: url("../imagens/twitter.png");
+}
+
+.instagram{
+    background-image: url("../imagens/instagram.png");
+}
+
+footer h1{
+    text-align: right;
+}
+
+.instagram:hover, .facebook:hover, .twitter:hover{
+    filter: brightness(0.0);
+}
+
