@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Exercício 1</title>
+  <meta charset="utf-8">
+  <style>
+    .rosa{ background-color: pink;  color: white;}
+    .alternativo{background-color: green;color: yellow}
+  </style>
+</head>
+  <body>
+    <h2>Trabalhos</h2>
+    <h1>Cadastrar</h1>
+    <form>
+      Nome:<input type="text" id="nome"><br>
+      Sobrenome:<input type="text" id="sobrenome"><br>
+      <button type="button" onclick="Cadastrar();">Cadastrar</button>
+      <button type="button" onclick="Alternativo();">Trocar Visual</button>
+      <button type="button" onclick="Original();">Visual Original</button>
+      <button type="button" onclick="Rosa();">Visual Rosa</button>
+    </form>
+    <span id="resposta" contenteditable="true"></span>
+    <script type="text/javascript" src="js/resolver.js"></script>
+  </body>
+</html>
