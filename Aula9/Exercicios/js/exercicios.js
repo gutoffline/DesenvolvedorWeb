@@ -39,7 +39,6 @@ function Salario(){
   var resultado = document.querySelector("#resultado");
   var total = salario_hora * horas_normais + (horas_extras * salario_hora) * 2;
   resultado.innerHTML = nome + " seu salário é R$ " + total.toFixed(2);
-
 }
 
 
