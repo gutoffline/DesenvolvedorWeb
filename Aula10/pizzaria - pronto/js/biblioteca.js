@@ -4,5 +4,7 @@ $('#voltar').on('click',function(event){
 
 
 $(window).load(function() {
-	$('.tooltip').tooltipster();
+
+  $('.tooltip').tooltipster();
+
 });
